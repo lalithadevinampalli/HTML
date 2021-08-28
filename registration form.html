@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> FORM</title>
+		<style>
+		body {
+			  background-color: lightblue;
+		         }
+
+			h1 {
+  				color: white;
+ 				 text-align: center;
+			}
+		
+		</style>	
+	</head>
+	<body>
+		<h1>STUDENT REGISTRATION FORM</h1>
+		<form>
+			<table id="table1"; cellspacing="5px" cellpadding="5%"; align="center">
+			<tr><td align="right" >First Name:<input type="text" placeholder="first name" oninvalid="alert('You must fill out the 			form!');" required/></tr></td>
+			<tr><td align="right" >Last Name:<input type="text" placeholder="last name" oninvalid="alert('You must fill out the 			form!');"  required/></tr></td>
+			<tr><td align="center" >Date Of Birth:
+ 			 <input type="date" id="DOB" name="DOB"oninvalid="alert('You must fill out the form!');" required></tr></td>
+			<tr><td align="center" >Gender:
+			<input type="radio"oninvalid="alert('You must fill out the form!');"  required>male   <input type="radio"oninvalid="alert			('You must fill out the form!');" required>female</tr></td>
+			<tr><td align="center">phone:
+			<input type="text" name="countrycode" value="+91" size="2"oninvalid="alert('You must fill out the form!');"  required/>
+			<input type="text" placeholder="phone"  size="10"oninvalid="alert('You must fill out the form!');" required/></tr></td>
+			<tr><td align="right">E-mail:
+			<input type="text" placeholder="email" oninvalid="alert('You must fill out the form!');" required  /></tr></td>
+			<tr><td align="left" required>Courses:
+			<select >
+				<option >select</option>
+				<option value="MCA">MCA</option>
+				<option value="MBA">MBA</option>
+			</select>	</tr></td>
+			<tr><td align="right" > <label>Address:</label>
+			<input type="text" placeholder="please enter address here" oninvalid="alert('You must fill out the form!');" 			                                       required /></tr></td>
+			<tr><td align="center"><button type="submit">submit</button>  <button type="reset">reset</button></tr></td>
+			</table>			
+			
+		</form>
+	</body>
+</html>
